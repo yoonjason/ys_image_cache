@@ -16,13 +16,13 @@ public struct ys_image_cache {
 public class test {
     public static let shared = test()
     
+    public let networkManager = NetworkManager.shared
     
     
     public func getImage() {
         let net  = NetworkManager.shared
         net.test()
     }
-    
     
     
 }
